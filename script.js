@@ -13,7 +13,6 @@ if(gamePlaying) {
   function computerPlay() {
     let type = ['rock', 'paper', 'scissors'];
     let typeNum = Math.floor(Math.random()*3);
-    console.log(type[typeNum]);
     return type[typeNum];
   }
   
