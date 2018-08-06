@@ -10,13 +10,44 @@
 </head>
 <body>
    
+	<div class="container">
+		<h1 class="title">Rock Paper Scissors Game</h1>
+		<div class="round">
+			<p></p>
+		</div>
+
+		<div class="game">
+			<div class="player">
+				<h3>Player Score:</h3>
+				<p class="player__score">0</p>
+				<h4>Choose an object:</h4>
+				<button data-btn = "rock"  value="rock" class="btn">Rock</button>
+				<button data-btn= "paper" value="paper" class="btn">Paper</button>
+				<button data-btn = "scissors"  value="scissors" class="btn">Scissors</button>
+			</div>
+			<!-- End player -->
+
+			<div class="computer">
+				<h3>Computer Score:</h3>
+				<p class="computer__score">0</p>
+			</div>
+		</div>
+
+		<div class="result">
+			<div class="result__text">
+					<p class="result__round">
+					</p>
+					<p class="result__final">
+					</p>
+			</div>
 
 
-
-
-
-
-
+			<div class="restart">
+				<button class="restart__button">Restart Game</button>
+			</div>
+		</div>
+		<!-- Game end -->
+	</div>
 
     <script src="script.js"></script>
 </body>

@@ -1,13 +1,13 @@
 /* Fix box model */
-html {
-    box-sizing: border-box;
-    height: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	height: 100%;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
 }
 
 body {
